@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/pdf_content_db
+    username: pdf_content_db_user
+    password: pdf_content_db_password
+    driver-class-name: com.mysql.cj.jdbc.Driver

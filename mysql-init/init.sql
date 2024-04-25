@@ -1,0 +1,6 @@
+CREATE TABLE resume (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    pdf_content MEDIUMBLOB,
+    created_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
